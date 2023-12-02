@@ -1,0 +1,186 @@
+body{
+  background-image: url("https://raw.githubusercontent.com/Mabeebee/mabeebee.github.io/main/MMINTER%20Final%20Project%20Content/HOME%20Page-ABT%20ME/Background.png");
+}
+
+.layout {
+  width: auto;
+  height: 768px;
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header { 
+  grid-area: header;
+  height: 100px;
+}
+
+#logo{
+  width: 50px;
+  height: auto;
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-family: 'Lilita One', cursive;
+  border: none;
+  font-size: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #94B7CF;
+  min-width: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #D3C8BC;
+  color: #B46125;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #D3C8BC;
+  color: #B46125;
+}
+.footer{
+  background-color: #94B7CF;
+}
+.footer ul { 
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.footer ul li a{
+  text-decoration: none;
+}
+
+.copy-right{
+  text:center;
+  padding-bottom: 30px;
+}
+.main { 
+  grid-area: main;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  width: auto;
+}
+
+.grow1 {
+  flex-grow: 0.1;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #B46125;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #B46125;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 30px;
+  color: black;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+a{
+  font-size: 20px;
+  font-family: 'Lilita One', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.content img {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.socialIcons{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.socialIcons a{
+  display: inline-block;
+  border: 1px solid beige;
+  color: white
+  width: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.app{
+  float:left;
+  width: 100px;
+  height: auto;
+  padding-right: 20px;
+}
+
+#fb{
+  width: 50px;
+  height: auto;
+}
+
+#ig{
+  width: 50px;
+  height: auto;
+}
