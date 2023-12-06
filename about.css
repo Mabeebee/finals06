@@ -86,29 +86,25 @@ body{
   text-align: center;
 }
 
-.text{
-  font-size: arial;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-}
-
 .right-square{
   height: auto;
-  background-color: white;
+  border: 15px;
   flex: 50%;
   float: right;
   text-align: center;
+  background-color: white;
 }
 
 .left-square{
-  height: 650px;
+  height: auto;
   display: flex;
-  flex: 43%;
+  flex: 50%;
   align-items: center;
   justify-content: center;
-  background-image: url("https://raw.githubusercontent.com/Mabeebee/mabeebee.github.io/main/MMINTER%20Final%20Project%20Content/HOME%20Page-ABT%20ME/circle.png")
+}
+
+.left-text{
+  background-color: grey;
 }
 
 @media (max-width: 900px) {
