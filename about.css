@@ -96,7 +96,7 @@ body{
 
 .right-square{
   height: auto;
-  background-color: orange;
+  background-color: white;
   flex: 50%;
   float: right;
   text-align: center;
