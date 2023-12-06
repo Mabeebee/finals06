@@ -4,7 +4,7 @@ body{
 
 .layout {
   width: auto;
-  height: 768px;
+  height: auto;
   display: grid;
   grid:
     "header" auto
@@ -85,18 +85,8 @@ body{
   font-size: 30px;
   text-align: center;
 }
-.container{
-  width: 600px;
-  height: 550px;
-  position: relative;
-  margin: 200px auto;
-}
-.container img {
-  width: 600px;
-  height: 550px;
-}
+
 .text{
-  color: red;
   font-size: arial;
   position: absolute;
   top: 50%;
@@ -105,13 +95,23 @@ body{
 }
 
 .right-square{
-  height: 500px;
-  width: auto;
-  background-color: white;
-  padding: 10px;
+  height: auto;
+  background-color: orange;
   flex: 50%;
+  float: right;
+  text-align: center;
 }
-@media (max-width: 800px) {
+
+.left-square{
+  height: 650px;
+  display: flex;
+  flex: 43%;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://raw.githubusercontent.com/Mabeebee/mabeebee.github.io/main/MMINTER%20Final%20Project%20Content/HOME%20Page-ABT%20ME/circle.png")
+}
+
+@media (max-width: 900px) {
   .flex-container {
     flex-direction: column;
   }
@@ -142,8 +142,6 @@ body{
 
 h3{
   font-family: 'Lilita One', cursive;
-  padding-left: 100px;
-  padding-right: 100px;
   color: #B46125;
   font-size: 70px;
 }
@@ -158,8 +156,8 @@ h2{
 
 p{
   font-family: 'Josefin Sans', sans-serif;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 30px;
   color: black;
 }
