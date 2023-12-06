@@ -152,8 +152,7 @@ h2{
 
 p{
   font-family: 'Josefin Sans', sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
   font-size: 30px;
   color: black;
 }
